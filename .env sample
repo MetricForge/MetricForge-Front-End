@@ -1,0 +1,9 @@
+VITE_OWNER_NAME=Name Surname
+VITE_CREATOR=Name Surname
+VITE_CREATOR_DOMAIN=https://www.linkedin.com/in/link/
+VITE_START_YEAR=2025
+VITE_GITHUB_URL=https://github.com/user/repo
+VITE_CLARITY_PROJECT_ID=abc
+
+# API Endpoints
+VITE_API_BASE_URL=https://data.com
