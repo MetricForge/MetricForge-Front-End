@@ -160,8 +160,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👤 Author
 
 **Your Name**
-- LinkedIn: [Your Profile](https://www.linkedin.com/in/kevinkhsueh/)
-- GitHub: [@yourusername](https://github.com/MetricForge)
+- LinkedIn: [Kevin Hsueh](https://www.linkedin.com/in/kevinkhsueh/)
+- GitHub: [@MetricForge](https://github.com/MetricForge)
 - Portfolio: [metricforge.dev](https://metricforge.dev)
 
 ---
