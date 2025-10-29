@@ -704,15 +704,38 @@ case 'Methodology':
   }
 
 
+  // {awData.length === 0 || true ? (  
 return (
   <div className="flex flex-col min-h-screen bg-gray-950 text-white">
     <main className="flex-grow flex flex-col space-y-4 p-4 overflow-hidden">
+      
       {awData.length === 0 ? (  
         <div className="flex-grow flex items-center justify-center">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-blue-500 mx-auto mb-4"></div>
-            <p className="text-gray-400 text-lg">Loading data...</p>
-            <p className="text-gray-500 text-sm mt-2">Please wait...</p>
+          <div className="flex flex-col items-center gap-4 animate-pulse">
+            <svg
+              className="w-16 h-16 text-blue-500 animate-spin"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <circle
+                className="opacity-25"
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                strokeWidth="4"
+              ></circle>
+              <path
+                className="opacity-75"
+                fill="currentColor"
+                d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+              ></path>
+            </svg>
+            <div className="flex flex-col items-center gap-1 text-center">
+            <p className="text-white text-lg font-medium">Loading activity data...</p>
+            <p className="text-gray-400 text-base">Analyzing your PC usage...</p>
+            </div>
           </div>
         </div>
       ) : (
@@ -724,7 +747,6 @@ return (
     <Footer />
   </div>
 );
-
 }
 
 export default App;
